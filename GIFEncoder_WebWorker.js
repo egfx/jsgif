@@ -42,7 +42,7 @@ GIFEncoder_WebWorker = function(options) {
         encoder.setDelay(this.delay);
         encoder.start();
          for (var i=0; i<this.frames.length; i++) {
-            encoder.addFrame(this.frames[i], true);
+            encoder.addFrame(this.frames[i]);
         }
         encoder.finish();
         cba(null, encoder.stream().getData())
