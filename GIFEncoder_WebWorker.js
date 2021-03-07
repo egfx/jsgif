@@ -52,7 +52,7 @@ GIFEncoder_WebWorker = function(options) {
         var animation_parts = new Array(this.frames.length);
         
         console.log("threads: " + this.num_threads)
-        var crew = new WorkCrew(url, this.num_threads);
+        var crew = new AltWorkCrew(url, this.num_threads);
         crew.oncomplete = function(result) {
             if (singleCompleteEvent) singleCompleteEvent()
             //console.log("done: " + result.id)
