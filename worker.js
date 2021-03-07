@@ -1,5 +1,5 @@
 //var base_url = typeof(base_url_injected)=="undefined"?"":base_url_injected;
-var base_url = "https://cdn.jsdelivr.net/gh/egfx/anirecord@48ea03e3572fa770e2a50a5c9c37257f0669a689/anigif/";
+var base_url = "https://cdn.jsdelivr.net/gh/egfx/jsgif@latest/";
 
 importScripts(base_url + 'GIFEncoder.js', base_url + 'LZWEncoder.js', base_url + 'NeuQuant.js', base_url + 'Demos/b64.js')
 
