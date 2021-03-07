@@ -7,7 +7,8 @@ GIFEncoder_WebWorker = function(options) {
         this.delay = 250
         this.frames = []
         this.num_threads = 8
-        this.base_url = options.base_url
+        //this.base_url = options.base_url
+        this.base_url = "https://cdn.jsdelivr.net/gh/egfx/anirecord@48ea03e3572fa770e2a50a5c9c37257f0669a689/anigif/"
         this.transparent = 0xffffff
     }
     
